@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="180dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/edNum1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:ems="10"
+                android:hint="숫자1입력"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/edNum2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:ems="10"
+                android:hint="숫자2입력"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btnNum0"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="0"
+                android:textColor="#222020"
+                android:textSize="18sp"
+                app:backgroundTint="#CDDC39" />
+
+            <Button
+                android:id="@+id/btnNum1"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="1"
+                android:textColor="#222020"
+                android:textSize="18sp"
+                app:backgroundTint="#CDDC39" />
+
+            <Button
+                android:id="@+id/btnNum2"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="2"
+                android:textColor="#222020"
+                android:textSize="18sp"
+                app:backgroundTint="#CDDC39" />
+
+            <Button
+                android:id="@+id/btnNum3"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="3"
+                android:textColor="#222020"
+                android:textSize="18sp"
+                app:backgroundTint="#CDDC39" />
+
+            <Button
+                android:id="@+id/btnNum4"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="4"
+                android:textColor="#222020"
+                android:textSize="18sp"
+                app:backgroundTint="#CDDC39" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btnNum5"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="5"
+                android:textColor="#373131"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="#00BCD4" />
+
+            <Button
+                android:id="@+id/btnNum6"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="6"
+                android:textColor="#373131"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="#00BCD4" />
+
+            <Button
+                android:id="@+id/btnNum7"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="7"
+                android:textColor="#373131"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="#00BCD4" />
+
+            <Button
+                android:id="@+id/btnNum8"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="8"
+                android:textColor="#373131"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="#00BCD4" />
+
+            <Button
+                android:id="@+id/btnNum9"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="9"
+                android:textColor="#373131"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="#00BCD4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_span="5"
+                android:text="더하기"
+                android:textColor="#252020"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="#FF5722" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btnSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_span="5"
+                android:text="빼기"
+                android:textColor="#252020"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="#FF9800" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btnMul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_span="5"
+                android:text="곱하기"
+                android:textColor="#252020"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="#FFEB3B" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btnDiv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_span="5"
+                android:text="나누기"
+                android:textColor="#252020"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="#4CAF50" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+
+                android:id="@+id/tvResult"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_span="5"
+                android:background="#FFEB3B"
+                android:gravity="left|center_vertical"
+                android:padding="10dp"
+                android:text="계산결과  :"
+                android:textColor="#D13030"
+                android:textSize="18sp" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
